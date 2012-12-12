@@ -1,0 +1,5 @@
+# robotstxt.org/
+
+Sitemap: http://www.datastripper.com/sitemap.xml
+
+# End robots.txt file

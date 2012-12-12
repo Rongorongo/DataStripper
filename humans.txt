@@ -1,0 +1,11 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Jacob Hansen -- Creator -- github.com/Rongorongo
+
+	
+# TECHNOLOGY COLOPHON
+
+    HTML, CSS, Javascript, Google Vizualization API, PHP, MySQL.
