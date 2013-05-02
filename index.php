@@ -22,7 +22,7 @@
 					<div class="slider-box">			
 						<div class="slider-item text-box">
 							<br><h1 class="color">Falling Wheat Prices</h1>
-							<br><p>Since the 1960<sup>th</sup> the relative wheat price measured in gold or silver has been falling throughout the years.</p> 
+							<br><p>Since the 1960's the relative wheat price measured in gold or silver has been falling throughout the years.</p> 
 							<p>In comparison the nominal wheat price measured in USD tells a different story as wheat priced in USD has been increasing over the years.</p>								
 							<a href="chart-wheat-price" class="clickme">Analyze Wheat Prices</a>
 						</div>
@@ -32,7 +32,7 @@
 						</figure>		
 						<div class="slider-item text-box">
 							<br><h1 class="color">Steady Oil Price</h1> 
-							<br><p>The chart depicts the price of one barrel of crude oil measured in gram gold since the 1970<sup>th</sup>.</p> 
+							<br><p>The chart depicts the price of one barrel of crude oil measured in gram gold since the 1970's.</p> 
 							<p>Priced in gold the oil price has been steady for the last 40 years around 1-2 gram for one barrel of crude oil.</p>
 							<a href="chart-oil-price" class="clickme">Analyze Oil Prices</a>		
 						</div>	

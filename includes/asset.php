@@ -10,6 +10,8 @@
 	if($asset == 'oranges'){$assetId = "Oranges"; $assetH= "oranges";}
 	if($asset == 'chicken'){$assetId = "Chicken"; $assetH= "chicken";}
 	if($asset == 'wheat'){$assetId = "Wheat"; $assetH= "wheat";}	
+	if($asset == 'apple'){$assetId = "AAPL"; $assetH= "apple stock";}
+	
 	/* 
 	catch..
 		https://docs.google.com/spreadsheet/formResponse?formkey=dG5FOXY2RXpLMERiUllFYTdjUllVb2c6MQ&ifq =

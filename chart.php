@@ -132,6 +132,6 @@
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 	<script type='text/javascript' src='http://www.google.com/jsapi'></script>
 	<script src="/js/jqplugin.1.0.2.min.js"></script>
-	<script src="/js/chart.1.min.js"></script>
+	<script src="/js/chart.2.min.js"></script>
 </body>
 </html>
