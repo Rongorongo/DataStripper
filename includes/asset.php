@@ -11,12 +11,6 @@
 	if($asset == 'chicken'){$assetId = "Chicken"; $assetH= "chicken";}
 	if($asset == 'wheat'){$assetId = "Wheat"; $assetH= "wheat";}	
 	if($asset == 'apple'){$assetId = "AAPL"; $assetH= "apple stock";}
-	
-	/* 
-	catch..
-		https://docs.google.com/spreadsheet/formResponse?formkey=dG5FOXY2RXpLMERiUllFYTdjUllVb2c6MQ&ifq =
-		entry.0.single Error Message
-		entry.1.single DataStripper.com
-		entry.2.single An error occurred on the chart page.
-	}	  */
+	if($asset == 'rice'){$assetId = "Rice"; $assetH= "rice";}
+	if($asset == 'rubber'){$assetId = "rubber"; $assetH= "rubber";}
 ?>

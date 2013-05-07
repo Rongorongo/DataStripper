@@ -3,7 +3,8 @@
 
 # TEAM
 
-    Jacob Hansen -- Creator -- github.com/Rongorongo
+    Jacob Hansen -- github.com/Rongorongo
+    Jon Rasmussen -- dk.linkedin.com/in/runjonzon
 
 	
 # TECHNOLOGY COLOPHON
