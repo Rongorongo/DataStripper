@@ -1,8 +1,8 @@
 /*
-	Kube Professional CSS-framework	
-	Copyright (c) 2012, Imperavi Inc.
-	http://imperavi.com/kube/	
-	License: free
+  Kube Professional CSS-framework 
+  Copyright (c) 2012, Imperavi Inc.
+  http://imperavi.com/kube/ 
+  License: free
 */
 
 /* =Base, reset, normalize
@@ -215,8 +215,7 @@ body {
   font-family: Helvetica, Arial, Tahoma, sans-serif;
 }
 a {
-  /*color: #336699;*/
-  color: #757575;
+  color: #336699;
 }
 a:hover {
   color: #19334d;
@@ -696,47 +695,115 @@ a.error:hover {
   color: #000000;
 }
 
+
+/**************************** Nav Pills ****************************/
+
+/* Pills */
+.nav-pills {
+  margin-bottom: 0em;
+}
+.nav-pills:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.nav-pills ul {
+  list-style: none;
+  margin: 0;
+}
+.nav-pills ul:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.nav-pills ul li {
+  float: left;
+  margin-right: .5em;
+  margin-bottom: 0.5em;
+}
+.nav-pills ul li a,
+.nav-pills ul li span {
+  display: block;
+  padding: 6px 11px;
+  line-height: 1;
+}
+.nav-pills ul li a {
+  color: #000000;
+  text-decoration: none;
+  background-color: #f3f4f5;
+}
+.nav-pills ul li a:hover {
+  color: #555555;
+  text-decoration: underline;
+}
+.nav-pills ul li .active,
+.nav-pills ul li .active:hover,
+.nav-pills ul li span {
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  background: none;
+}
+.nav-pills ul li .active,
+.nav-pills ul li .active:hover {
+  cursor: default;
+  text-decoration: none;
+}
+
 /****************************DATASTRIPPER SPECIFIC****************************/
 
 
 /* =Typography
 -----------------------------------------------------------------------------*/
+#blog{
+  /*float: left;*/
+  position: relative;
+  top: -3px;
+  padding: 0em 0.3em 0em 0em;
+  opacity: 0.6;
+  width: 30px;
+  height: 30px;
+}
+
 .color{
-	color: 	black;
+  color:  black;
 
 }
 
-.asset{	
-	text-transform: capitalize;
+.asset{ 
+  text-transform: capitalize;
 }
 .price1{
-	text-transform: uppercase;
-	}
-	
+  text-transform: uppercase;
+  }
+  
 .clickme {
-	/*display: block;*/
-	position: absolute;
-	top: 260px;
-	background:#2A75A9;
-	background:-moz-linear-gradient(top,#2A75A9 0%,#4671D5 100%);
-	background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#2A75A9),color-stop(100%,#4671D5));
-	background:-webkit-linear-gradient(top,#2A75A9 0%,#4671D5 100%);
-	background:-o-linear-gradient(top,#2A75A9 0%,#4671D5 100%);
-	background:-ms-linear-gradient(top,#2A75A9 0%,#4671D5 100%);
-	background:linear-gradient(top,#2A75A9 0%,#4671D5 100%);
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#2A75A9',endColorstr='#4671D5',GradientType=0);
-	width: 220px;
-	padding:15px 10px;
-	margin-left:0px;
-	color:#fff;
-	font-family:'Helvetica Neue', sans-serif;
-	text-align: center;
-	font-size: 18px;
-	border-radius:4px;
-	-moz-border-radius:4px;
-	-webkit-border-radius:4px;
-	border:1px solid #2A75A9;
-	text-decoration: none;
+  /*display: block;*/
+  position: absolute;
+  top: 260px;
+  background:#2A75A9;
+  background:-moz-linear-gradient(top,#2A75A9 0%,#4671D5 100%);
+  background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#2A75A9),color-stop(100%,#4671D5));
+  background:-webkit-linear-gradient(top,#2A75A9 0%,#4671D5 100%);
+  background:-o-linear-gradient(top,#2A75A9 0%,#4671D5 100%);
+  background:-ms-linear-gradient(top,#2A75A9 0%,#4671D5 100%);
+  background:linear-gradient(top,#2A75A9 0%,#4671D5 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#2A75A9',endColorstr='#4671D5',GradientType=0);
+  width: 220px;
+  padding:15px 10px;
+  margin-left:0px;
+  color:#fff;
+  font-family:'Helvetica Neue', sans-serif;
+  text-align: center;
+  font-size: 18px;
+  border-radius:4px;
+  -moz-border-radius:4px;
+  -webkit-border-radius:4px;
+  border:1px solid #2A75A9;
+  text-decoration: none;
 }
 
 .greybackground{
@@ -750,196 +817,196 @@ a.error:hover {
 }
 
 .colorchart{
-	font-size: 1.5em;
-	line-height: 1em;
-	font-weight: bold;
+  font-size: 1.5em;
+  line-height: 1em;
+  font-weight: bold;
 }
 
 .usd.colorchart{
-	color: #55B96B;
+  color: #55B96B;
 }
 
 .gold.colorchart{
-	color: #F5B857;
+  color: #F5B857;
 }
 
 .hours.colorchart{
-	color: #1B6FAF;
+  color: #1B6FAF;
 }
 
 .silver.colorchart{
-	color: silver;
+  color: silver;
 }
 
-	
+  
 /* =Links
 -----------------------------------------------------------------------------*/
 .homebutton:hover{
-	opacity: 1;	
+  opacity: 1; 
 }
 
 a.clickme:hover {
-	color: #fff;
+  color: #fff;
 }
 
 #chartcases div a {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 #chartcases div a:hover {
-	text-decoration: underline;
+  text-decoration: underline;
 }
 
 
 /* =Layout
 -----------------------------------------------------------------------------*/
 #page {
-	width: 94%;
-	max-width: 960px;
-	padding: 0 10px;
-	margin: 0.2em auto 0.8em auto;
+  width: 94%;
+  max-width: 960px;
+  padding: 0 10px;
+  margin: 0.2em auto 0.8em auto;
 }
 
-div#chart_div, div#chart_div2  {	
-	margin-bottom: 10px;
-	margin-top: 5px;
-	width: 930px; 
-	height: 400px; 
+div#chart_div, div#chart_div2  {  
+  margin-bottom: 10px;
+  margin-top: 5px;
+  width: 930px; 
+  height: 400px; 
 }
 
 div#chart_div > object, embed, iframe{
-	width: 100%;
+  width: 100%;
 }
 
 div#chart_div2 > object, embed, iframe{
-	width: 100%;
+  width: 100%;
 }
 
 
 #headerchart1{
-	font-size: 200%;
-	/*font-weight: 700;*/
-	margin-bottom: 0.2em;
+  font-size: 200%;
+  /*font-weight: 700;*/
+  margin-bottom: 0.2em;
 }
 
 #headerchart2{
-	font-weight: 400;
-	margin-bottom: 0.5em;
+  font-weight: 400;
+  margin-bottom: 0.5em;
 }
 
 
 .tablecol{ /*added by DataStripper */
-	width: 90px;
+  width: 90px;
 }
 
 th.colorchart, td.colorchart{
-	width:30px;
+  width:30px;
 }
 
 #welcome p{
-	margin-bottom: 1.4em;
-	margin-top: 0.4em;
+  margin-bottom: 1.4em;
+  margin-top: 0.4em;
 }
 
 /*TO DO - FOLLOW UP ON THESE CSS RULES FOR BUTTONS*/
 #button1 input, #button2 input, #button3 input,  #button4 input{
-	margin-left: 3px;
+  margin-left: 3px;
 }
 
 #button1{
-	vertical-align: middle;
+  vertical-align: middle;
 }
 
 #button2{
-	vertical-align: middle;
-	margin-left: 1.5em;
+  vertical-align: middle;
+  margin-left: 1.5em;
 }
 
 #button3{
-	margin-left: 1.5em;
+  margin-left: 1.5em;
 }
 
 #button4{
-	margin-left: 1.5em;
+  margin-left: 1.5em;
 }
 
 
 #chartcases{
-	margin-top: 2em;
+  margin-top: 2em;
 }
 
 #chartcases p{
-	margin-bottom: 0.5em;
+  margin-bottom: 0.5em;
 }
 
 section.about{
-	margin-top: 0em;
+  margin-top: 0em;
 }
 
 section.aboutdata{
-	margin-top: 2em;
+  margin-top: 2em;
 }
 
 section.feedback{
-	margin-top: 1.75em;
-	margin-bottom:4em;
+  margin-top: 1.75em;
+  margin-bottom:4em;
 }
 
 #feedback textarea{
-	width: 98%;
-	height: 7em;
+  width: 98%;
+  height: 7em;
 }
 
 #feedback input[type=email], input[type=text]  {
-	width: 250px;
+  width: 250px;
 }
 
 section.why{
-	margin-top: 3.5em;
+  margin-top: 3.5em;
 }
 
 #why1, #why3{
-	margin-left: 0%;
+  margin-left: 0%;
 }
 
 .caption{
-	position: absolute; 
-	left:290px; 
-	top:-1px;
-	color: grey;
+  position: absolute; 
+  left:290px; 
+  top:-1px;
+  color: grey;
 }
 
 #caption2{
-	left:1180px;
+  left:1180px;
 }
 
 #caption3{
-	left:2070px;
+  left:2070px;
 }
 
 .download{
-	float:right; 
-	font-size: 1em; 
-	position: relative; 
-	top: -20px; 
-	right: 8px;
-	color: grey;
-	text-decoration: none;
+  float:right; 
+  font-size: 1em; 
+  position: relative; 
+  top: -20px; 
+  right: 8px;
+  color: grey;
+  text-decoration: none;
 }
 
 .download a{
-	color:grey;
+  color:grey;
 
 }
 
 .download img{
-	height: 25px; 
-	width: 25px;
-	opacity: .7; 
-	margin-left: 4px; 
-	position: relative; 
-	top: -3px;
-}					
+  height: 25px; 
+  width: 25px;
+  opacity: .7; 
+  margin-left: 4px; 
+  position: relative; 
+  top: -3px;
+}         
 
 #chart_div td {
   border-bottom: 0px solid #eeeeee;
@@ -947,24 +1014,24 @@ section.why{
 }
 
 ::-webkit-validation-bubble-message {
-	position:relative;
-	left:270px;
-	top: -55px;
+  position:relative;
+  left:270px;
+  top: -55px;
 }
 
 ::-webkit-validation-bubble-arrow {
-	display:none;
+  display:none;
 }
 
 #alertflash{
-	float:left;
-	position: relative;
-	top: -18px;
-	left: 10px;
+  float:left;
+  position: relative;
+  top: -18px;
+  left: 10px;
 }
 
 #chart_div2{
-	display:none;
+  display:none;
 }
 
 
@@ -973,20 +1040,20 @@ section.why{
 /* =Header
 -----------------------------------------------------------------------------*/
 .homebutton{
-	float:right; 
-	margin-top: 8px;
-	opacity: 0.75;
-	-webkit-transition: opacity .15s ease-in-out;
-	-moz-transition: opacity .15s ease-in-out;
-	-o-transition: opacity .15s ease-in-out;
-	transition: opacity .15s ease-in-out;
+  float:right; 
+  margin-top: 8px;
+  opacity: 0.75;
+  -webkit-transition: opacity .15s ease-in-out;
+  -moz-transition: opacity .15s ease-in-out;
+  -o-transition: opacity .15s ease-in-out;
+  transition: opacity .15s ease-in-out;
 }
 
 #logoimg{
-	margin-top: 0.3em;
-	margin-bottom:2em;
-	width: 231px;
-	height: 55px;
+  margin-top: 0.3em;
+  margin-bottom:2em;
+  width: 231px;
+  height: 55px;
 }
 
 #home{
@@ -1006,28 +1073,28 @@ margin-right: 1.2em;
 /* =images
 -----------------------------------------------------------------------------*/
 #introimg1{
-	float: left;
-	padding: 0.6em 1.2em 0em 0.3em;
-	opacity: 0.7;
-	width: 45px;
-	height: 45px;
+  float: left;
+  padding: 0.6em 1.2em 0em 0.3em;
+  opacity: 0.7;
+  width: 45px;
+  height: 45px;
 }
 
 #introimg2{
-	float: left;
-	padding: 0.5em 1.2em 0em 0em;
-	width: 45px;
-	height: 45px;	
+  float: left;
+  padding: 0.5em 1.2em 0em 0em;
+  width: 45px;
+  height: 45px; 
 }
 
 img.slideimg{
-	width: 600px;
-	height: 330px;
-	float:left;
+  width: 600px;
+  height: 330px;
+  float:left;
 }
 
 img.arrowVar2{
-	vertical-align:text-top;
+  vertical-align:text-top;
 }
 
 img.chartimg{
@@ -1036,36 +1103,36 @@ img.chartimg{
 }
 
 .introimg{
-	float: left;
+  float: left;
 }
 
 #why1 img{
-	padding: 0.9em 0.9em 1em 0em;
-	width: 39px;
-	height: 28px;
+  padding: 0.9em 0.9em 1em 0em;
+  width: 39px;
+  height: 28px;
 }
 
 #why2 img{
-	padding: 0.3em 1em 1em 0em;
-	width: 40px;
-	height: 40px;
+  padding: 0.3em 1em 1em 0em;
+  width: 40px;
+  height: 40px;
 }
 
 #why3 img{
-	padding: 0.6em 1em 1em 0.5em;
-	width: 31px;
-	height: 39px;
+  padding: 0.6em 1em 1em 0.5em;
+  width: 31px;
+  height: 39px;
 }
 
 #why4 img{
-	padding: 0.5em 1em 1em 0em;
-	width: 40px;
-	height: 40px;
+  padding: 0.5em 1em 1em 0em;
+  width: 40px;
+  height: 40px;
 }
 
 /*IMAGES NAV*/
 #otherassets img {
-	
+  
 
 }
 
@@ -1074,8 +1141,13 @@ img.chartimg{
 /* =Footer
 -----------------------------------------------------------------------------*/
 ul#listassets li {
-	list-style: none;
+  list-style: none;
 }  
+
+.eight{
+  float: left;
+
+}
 
 .foot{
 border-top: 1px;
@@ -1085,46 +1157,46 @@ margin-top: 1.1em;
 }
 
 .toe{
-	float: right;
-	margin-right: 0.5em;
-	margin-top: 0.10em;
-	margin-bottom: 0.5em;
-	color: grey;
-	text-decoration: none;
-	font-weight: 400;
+  float: right;
+  margin-right: 0.5em;
+  margin-top: 0.10em;
+  margin-bottom: 0.5em;
+  color: grey;
+  text-decoration: none;
+  font-weight: 400;
 }
 
 #otherassets{ /*nav bar to jump chart page*/
-		margin-top: 4em;
+    margin-top: 4em;
 }
 
 #otherassets p{
-	margin-bottom: .3em;
-	font-weight: 700;
-	opacity: 0.90;
+  margin-bottom: .3em;
+  font-weight: 700;
+  opacity: 0.90;
 }
 
 #otherassets1{
-	margin-left: -.5em;
+  margin-left: -.5em;
 }
 
 #otherassets2{
-	margin-left: 0.4em;
+  margin-left: 0.4em;
 }
 
 #otherassets3{
-	margin-left: 0.7em;
-	opacity: 0.8;
+  margin-left: 0.7em;
+  opacity: 0.8;
 }
 
 #otherassets4{
-	margin-left: 0.3em;
-	opacity: 0.8;
+  margin-left: 0.3em;
+  opacity: 0.8;
 }
 
 #otherassets5{
-	margin-left: 1.5em;
-	opacity: 0.9
+  margin-left: 1.5em;
+  opacity: 0.9
 }
 
 
@@ -1136,25 +1208,25 @@ margin-top: 1.1em;
 /* =Responsive netbook screen
 -----------------------------------------------------------------------------*/
 @media only screen and (max-width: 1000px) { /*if the screen size is below 940px then apply below styles*/
-	.custom-wrap{
-	display:none;
-	}
+  .custom-wrap{
+  display:none;
+  }
 }
 
 /* =Responsive tablet screen
 -----------------------------------------------------------------------------*/
 @media only screen and (max-width: 890px) {
-	.source2{
-		display:none;
-	}
-	
-	div#chart_div, div#chart_div2 {	
-	margin-bottom: 10px;
-	margin-top: 5px;
-	width: 700px; 
-	height: 400px; 
-	margin-right: auto;
-	margin-left: auto;
+  .source2{
+    display:none;
+  }
+  
+  div#chart_div, div#chart_div2 { 
+  margin-bottom: 10px;
+  margin-top: 5px;
+  width: 700px; 
+  height: 400px; 
+  margin-right: auto;
+  margin-left: auto;
 }
 
   .row .half,
@@ -1172,36 +1244,36 @@ margin-top: 1.1em;
     width: 100%;
   }
   
-  	.quarter{
-	width: 48.40425531914894%;
-	min-width: 210px; 
-	margin-left:0;
-	margin-bottom: 3%;
-	}
-	
-	.source1 {
-		width: 48.40425531914894%;
-	}
-	
-	.source3{
-		width: 48.40425531914894%;
-	}
-	
-	img.chartimg{
-	width: 200px;
-	height: 125px;
-	border: 1px solid #ccc;
-	display: block;
+    .quarter{
+  width: 48.40425531914894%;
+  min-width: 210px; 
+  margin-left:0;
+  margin-bottom: 3%;
+  }
+  
+  .source1 {
+    width: 48.40425531914894%;
+  }
+  
+  .source3{
+    width: 48.40425531914894%;
+  }
+  
+  img.chartimg{
+  width: 200px;
+  height: 125px;
+  border: 1px solid #ccc;
+  display: block;
     margin-left: auto;
-    margin-right: auto;	
-}
-	
-
-#chartcases{
-	text-align:center;
+    margin-right: auto; 
 }
   
-   /* Forms	*/
+
+#chartcases{
+  text-align:center;
+}
+  
+   /* Forms */
   .forms.columnar label {
     float: none;
     text-align: left;
@@ -1240,46 +1312,46 @@ margin-top: 1.1em;
 /* =Responsive Mobile (Portrait)
 -----------------------------------------------------------------------------*/
 @media only screen and (max-width: 480px) { /*if the screen size is below 480px then apply below style*/
-	ul#listassets li.fifth.last {
-		display:none;
-	}
-	
-	#welcome2, #welcome{
-		display:none;
-	}
-	
-	#logoimg{
-		display: block;
-		margin-right:auto;
-		margin-left:auto;
-	}
-	
-	.homebutton{
-		float:left;
-	}
-	
-	ul#listassets li.fifth{
-		width: 22.606382978723403%;
-	}
-	
-	img.chartimg {
-	width: 200px;
-	height: 125px;
-	border: 1px solid #ccc;
-	display: block;
+  ul#listassets li.fifth.last {
+    display:none;
+  }
+  
+  #welcome2, #welcome{
+    display:none;
+  }
+  
+  #logoimg{
+    display: block;
+    margin-right:auto;
+    margin-left:auto;
+  }
+  
+  .homebutton{
+    float:left;
+  }
+  
+  ul#listassets li.fifth{
+    width: 22.606382978723403%;
+  }
+  
+  img.chartimg {
+  width: 200px;
+  height: 125px;
+  border: 1px solid #ccc;
+  display: block;
     margin-left: auto;
-    margin-right: auto;	
+    margin-right: auto; 
 }
 
-	div#chart_div, div#chart_div2 {	
-	margin-bottom: 10px;
-	margin-top: 5px;
-	width: 400px; 
-	height: 300px; 
-	margin-right: auto;
-	margin-left: auto;
+  div#chart_div, div#chart_div2 { 
+  margin-bottom: 10px;
+  margin-top: 5px;
+  width: 400px; 
+  height: 300px; 
+  margin-right: auto;
+  margin-left: auto;
 }
-	
+  
   .row .half,
   .row .third,
   .row .quarter,
@@ -1295,7 +1367,7 @@ margin-top: 1.1em;
     width: 100%;
   }
   
-  /* Forms	*/
+  /* Forms  */
   .forms.columnar label {
     float: none;
     text-align: left;
@@ -1332,51 +1404,3 @@ margin-top: 1.1em;
 
 
 
-/* ==========================================================================
-   Print styles.
-   Inlined to avoid required HTTP connection: h5bp.com/r
-   ========================================================================== */
-
-@media print {
-    * {
-        background: transparent !important;
-        color: #000 !important; /* Black prints faster: h5bp.com/s */
-        box-shadow: none !important;
-        text-shadow: none !important;
-    }
-
-    pre,
-    blockquote {
-        border: 1px solid #999;
-        page-break-inside: avoid;
-    }
-
-    thead {
-        display: table-header-group; /* h5bp.com/t */
-    }
-
-    tr,
-    img {
-        page-break-inside: avoid;
-    }
-
-    img {
-        max-width: 100% !important;
-    }
-
-    @page {
-        margin: 0.5cm;
-    }
-
-    p,
-    h2,
-    h3 {
-        orphans: 3;
-        widows: 3;
-    }
-
-    h2,
-    h3 {
-        page-break-after: avoid;
-    }
-}
