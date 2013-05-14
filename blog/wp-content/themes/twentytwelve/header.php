@@ -36,8 +36,11 @@
 <body <?php body_class(); ?>>
 <div id="page" class="hfeed site">
 	<header id="masthead" class="site-header" role="banner">
-		
-		<nav class="homebutton"><a href="/"><img src="/img/button-home.png" alt="home chart prices"></a></nav>
+		<nav>
+			<a class="homebutton" href="/"><img src="/img/button-home.png" alt="home chart prices"></a>
+			<a class="homebutton" href="/../blog/"><img id="blog" src="/img/button-blog.png" alt="blog datastripper"></a> 
+		</nav>
+
 		<a href="/"><img id="logoimg" src="/img/logo-datastripper.png" alt="DataStripper - Analyze Relative Prices"></a>
 
 		<hgroup>

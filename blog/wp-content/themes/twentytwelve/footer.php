@@ -14,29 +14,21 @@
 	
 	<section id="otherassets" class="row ">
 		<h2 class="color">Analyze Prices</h2>
-		<ul id="listassets" class="small">
-			<li  class="fifth">
-				<p>Oil</p>
-				<a href="../chart-oil-price" ><img src="/img/button-chart-oil.png" alt="chart price oil inflation" id="otherassets1"></a>
-			</li>
-			<li  class="fifth">	
-				<p>Oranges</p>
-				<a href="../chart-oranges-price"><img src="/img/button-chart-oranges.png" alt="chart price oranges" id="otherassets2"></a>
-			</li>
-			<li class="fifth">
-				<p>Chickens</p>
-				<a href=../chart-chicken-price"><img src="/img/button-chart-chicken.jpg" alt="chart chicken price"  id="otherassets3"></a>
-			</li>
-			<li class="fifth">
-				<p>Wheat</p>
-				<a href="../chart-wheat-price"><img src="/img/button-chart-wheat.png" alt="chart wheat price"  id="otherassets4"></a>
-			</li>	
-			<li class="fifth last">
-				<p>Suggest Data</p>
-				<a href="../about"><img src="/img/button-data-suggest.png" alt="suggest data analysis " id="otherassets5"></a>
-			</li>			
-		</ul>
+		<nav class="nav-pills">
+			<ul>
+				<li><a href="../chart-oil-price">Oil</a></li>
+				<li><a href="../chart-chicken-price">Chicken</a></li>
+				<li><a href="../chart-wheat-price">Wheat</a></li>
+				<li><a href="../chart-rice-price">Rice</a></li>
+				<li><a href="../chart-rubber-price">Rubber</a></li>
+				<li><a href="../chart-apple-price">Apple Stock</a></li>
+				<li><a href="../about">Suggest Data</a></li>
+			</ul>
+		</nav>
+
 	</section> <!--end assetnav section-->
+	
+
 	<script>
 		  var _gaq = _gaq || [];
 		  var pluginUrl =  '//www.google-analytics.com/plugins/ga/inpage_linkid.js'; 
@@ -50,14 +42,22 @@
 		  })();
 	</script>
 	
-	<footer class="foot">
-		<span>
+
+<!-- 		<span>
 			<a href="../about" class="toe">About</a><span class="toe">&middot;</span>	
 			<a href="/../blog/" class="toe">Blog</a><span class="toe">&middot;</span>
 			<a href="/" class="toe">Home</a>
+		</span> -->
+
+	<footer class="foot">
+		<span >
+			<a href="../about" class="toe">About</a><span class="toe"> / </span>
+			<a href="/../blog/" class="toe">Blog</a><span class="toe"> / </span>
+			<a href="/" class="toe">Home</a>
 		</span>
 	</footer>
-</div><!-- #paage -->
+
+</div><!-- #page -->
 
 <?php// wp_footer(); ?>
 </body>

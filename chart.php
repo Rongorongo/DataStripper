@@ -126,7 +126,11 @@
 <?php include ('includes/footer.html'); ?>
 
 	<footer class="foot">
-		<span ><a href="about" class="toe">About</a><span class="toe"> / </span><a href="blog" class="toe">Blog</a></span></span>
+		<span >
+			<a href="about" class="toe">About</a><span class="toe"> / </span>
+			<a href="blog" class="toe">Blog</a><span class="toe"> / </span>
+			<a href="/" class="toe">Home</a>
+		</span>
 	</footer>
 </div>
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
