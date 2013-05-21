@@ -70,7 +70,7 @@
 				</tr>	
 		</table>
 		<span id="alertflash"></span>
-		<span class="download"><a href="https://www.google.com/fusiontables/DataSource?docid=1dDMPAWx1pgXvOjRujkwGjuaRYNPHb3mN3MTHEIU" target="_blank">Data<img src="/img/download-data-historic-prices.png" alt="download historic data prices" onClick="_gaq.push(['_trackEvent', 'ViewRawData', 'Click', 'Fusion Tables']);"></a></span>
+		<span class="download"><a id="datatable" href="" target="_blank">Data<img src="/img/download-data-historic-prices.png" alt="download historic data prices" onClick="_gaq.push(['_trackEvent', 'ViewRawData', 'Click', 'Fusion Tables']);"></a></span>
 	</section>
 	<section class="aboutdata greybackground">
 		<h2 class="color">About the Data</h2>
