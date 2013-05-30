@@ -13,4 +13,5 @@
 	if($asset == 'apple'){$assetId = "AAPL"; $assetH= "apple stock";}
 	if($asset == 'rice'){$assetId = "Rice"; $assetH= "rice";}
 	if($asset == 'rubber'){$assetId = "rubber"; $assetH= "rubber";}
+	if($asset == 'cotton'){$assetId = "cotton"; $assetH= "cotton";}
 ?>
